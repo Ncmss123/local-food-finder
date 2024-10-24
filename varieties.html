@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+ .food-styles-section {
+    padding:50px 0;
+    background-image: linear-gradient(to right,#fc5c7d,#6a82fb);
+    text-align: center;
+}
+
+.food-styles-section h2 {
+    margin-bottom: 30px;
+}
+
+.food-styles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.food-block {
+    background-image: linear-gradient(109.6deg,rgba(156,252,248,1)11.2%,rgba(110,123,251,1)91.1%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.food-block img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.food-block h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.food-block p {
+    color: #666;
+    font-size: 1em;
+}
+
+.food-block:hover {
+    transform: translateY(-10px);
+}
+footer {
+    background-color: #333;
+    color: #fcecec;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+ </style>
+    </head>
+    <body>
+        <section class="food-styles-section">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Enter a type of variety" />
+                <button type="submit">Search</button>
+            </form>
+            <div>
+            <video width="640" height="360" controls>
+                <source src="WhatsApp Video 2024-10-24 at 9.10.31 PM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              </div>
+            <div class="container">
+                <h2>Explore Food Styles</h2>
+                <div class="food-styles-grid">
+                    <!-- Food Block 1 -->
+                    <div class="food-block">
+                        <img src="italian.jpg" alt="Italian Food">
+                        <h3>Italian</h3>
+                        <p>Famous for pasta, pizzas, and savory sauces. A classic choice for lovers of rich and comforting meals.</p>
+                    </div>
+    
+                    <!-- Food Block 2 -->
+                    <div class="food-block">
+                        <img src="chinese.jpg" alt="Chinese Food">
+                        <h3>Chinese</h3>
+                        <p>A wide variety of stir-fried dishes, dumplings, noodles, and flavorful sauces that offer diverse tastes.</p>
+                    </div>
+    
+                    <!-- Food Block 3 -->
+                    <div class="food-block">
+                        <img src="mexican.jpg" alt="Mexican Food">
+                        <h3>Mexican</h3>
+                        <p>Bold flavors of chilies, tomatoes, and fresh herbs combined in tacos, enchiladas, and other vibrant dishes.</p>
+                    </div>
+    
+                    <!-- Food Block 4 -->
+                    <div class="food-block">
+                        <img src="indian.jpg" alt="Indian Food">
+                        <h3>Indian</h3>
+                        <p>Diverse curries, biryanis, and tandoori dishes featuring aromatic spices and herbs.</p>
+                    </div>
+    
+                    <!-- Food Block 5 -->
+                    <div class="food-block">
+                        <img src="thai.jpg" alt="Thai Food">
+                        <h3>Thai</h3>
+                        <p>A perfect balance of sweet, sour, salty, and spicy flavors. Popular dishes include Pad Thai and Tom Yum Soup.</p>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Local Food Finder. Pull up chair,Have a taste</p>
+            </div>
+        </footer>
+</body>
+</html>
